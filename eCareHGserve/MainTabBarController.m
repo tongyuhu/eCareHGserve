@@ -41,7 +41,7 @@
         Class cls = NSClassFromString(className);
         //创建视图控制器
         UIViewController *vc = [[cls alloc] init];
-        
+        vc.view.backgroundColor = [UIColor whiteColor];
         //图片
         NSString *imageName = imageArray[i];
         NSString *selectImageName = selectImageArray[i];
@@ -54,10 +54,10 @@
         NSString *title = nameArray[i];
         vc.tabBarItem.title = title;
         
-//        //添加导航
-//        UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:vc];
-//        
-//        [navArray addObject:navCtrl];
+        //添加导航
+        UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:vc];
+        navCtrl.navigationBarHidden = YES;
+        [navArray addObject:navCtrl];
     }
     self.viewControllers = navArray;
     
