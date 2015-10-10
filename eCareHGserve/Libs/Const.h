@@ -34,8 +34,9 @@
 #define BLACK [UIColor colorWithRed:51.0/255.0 green:51.0/255.0 blue:51.0/255.0 alpha:1.0]
 #define PLACEHODE [UIColor colorWithRed:199.0/255.0 green:199.0/255.0 blue:205.0/255.0 alpha:1.0]
 
-#define TEXTBLACK [UIColor colorWithHexString:@"333333"]
-#define TEXTGRAY [UIColor colorWithHexString:@"999999"]
+#define GRAY3 [UIColor colorWithHexString:@"333333"]
+#define GRAY6 [UIColor colorWithHexString:@"666666"]
+#define GRAY9 [UIColor colorWithHexString:@"999999"]
 #define SPLINEGRAY [UIColor colorWithHexString:@"8b8b8b"]
 #define SPLINELIGHTGRAY [UIColor colorWithHexString:@"eaeaea"]
 
