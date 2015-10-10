@@ -28,14 +28,13 @@
     //标题文字
     NSArray *nameArray = @[@"订单",@"任务",@"个人中心"];
     //图片
-    NSArray *imageArray = @[@"tabbar_limitfree",@"tabbar_reduceprice",@"tabbar_appfree"];
+    NSArray *imageArray = @[@"tab_home_h",@"tab_home_h",@"tab_home_h"];
     NSArray *selectImageArray = @[@"tabbar_limitfree_press",@"tabbar_reduceprice_press",@"tabbar_appfree_press"];
     
     //循环创建视图控制器
     NSMutableArray *navArray = [NSMutableArray array];
     for (int i=0; i<ctrlArray.count; i++) {
         //类名
-        //ctrlArray[i] == [ctrlArray objectAtIndex:i]
         NSString *className = ctrlArray[i];
         //cls包含类的名字和属性以及方法等内容
         Class cls = NSClassFromString(className);
