@@ -28,8 +28,8 @@
     //标题文字
     NSArray *nameArray = @[@"订单",@"任务",@"个人中心"];
     //图片
-    NSArray *imageArray = @[@"tab_home_h",@"tab_home_h",@"tab_home_h"];
-    NSArray *selectImageArray = @[@"tabbar_limitfree_press",@"tabbar_reduceprice_press",@"tabbar_appfree_press"];
+    NSArray *imageArray = @[@"ff1",@"gg1",@"user1"];
+    NSArray *selectImageArray = @[@"ff",@"gg",@"user"];
     
     //循环创建视图控制器
     NSMutableArray *navArray = [NSMutableArray array];
@@ -48,9 +48,11 @@
         //表示使用原始图片
         vc.tabBarItem.image = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         vc.tabBarItem.selectedImage = [[UIImage imageNamed:selectImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-        
         //标题文字
         NSString *title = nameArray[i];
+        vc.tabBarItem.title = title;
+        NSDictionary *dic = @{NSForegroundColorAttributeName:PURPLE};
+        [vc.tabBarItem setTitleTextAttributes:dic forState:UIControlStateSelected];
         vc.tabBarItem.title = title;
         
         //添加导航

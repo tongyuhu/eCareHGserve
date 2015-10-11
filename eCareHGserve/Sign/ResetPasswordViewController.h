@@ -9,5 +9,7 @@
 #import "BaseNavViewController.h"
 
 @interface ResetPasswordViewController : BaseNavViewController
+@property (weak, nonatomic) IBOutlet UITextField *password;
+@property (weak, nonatomic) IBOutlet UITextField *confirmPassword;
 
 @end

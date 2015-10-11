@@ -9,6 +9,7 @@
 #import "SignInViewController.h"
 #import "RegisterViewController.h"
 #import "GetBackPasswordViewController.h"
+#import "MainTabBarController.h"
 @interface SignInViewController ()
 
 @end
@@ -31,6 +32,9 @@
 
 
 - (IBAction)signBtn:(id)sender {
+    //创建视图控制器
+    MainTabBarController *mainTabCtrl = [[MainTabBarController alloc] init];
+    [self.navigationController presentViewController:mainTabCtrl animated:NO completion:Nil];
     
 }
 

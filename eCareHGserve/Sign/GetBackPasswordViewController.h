@@ -9,5 +9,8 @@
 #import "BaseNavViewController.h"
 
 @interface GetBackPasswordViewController : BaseNavViewController
+@property (weak, nonatomic) IBOutlet UITextField *phoneNum;
+@property (weak, nonatomic) IBOutlet UITextField *identityCode;
+@property (weak, nonatomic) IBOutlet UIButton *getIdentityCodeBtn;
 
 @end

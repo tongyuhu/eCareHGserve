@@ -7,6 +7,7 @@
 //
 
 #import "RegisterViewController.h"
+#import "RegisterViewController2.h"
 
 @interface RegisterViewController ()
 
@@ -22,6 +23,8 @@
 - (IBAction)getCodeBtn:(id)sender {
 }
 - (IBAction)netStep:(id)sender {
+    RegisterViewController2 *vc = [[RegisterViewController2 alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
