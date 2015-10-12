@@ -2,12 +2,13 @@
 //  UserCenterViewController.m
 //  eCareHGserve
 //
-//  Created by tongyuhu on 15/10/10.
+//  Created by tongyuhu on 15/10/12.
 //  Copyright (c) 2015年 SHmoyi. All rights reserved.
 //
 
 #import "UserCenterViewController.h"
-
+#import "UserInformationViewController.h"
+#import "ServeDetailViewController.h"
 @interface UserCenterViewController ()
 
 @end
@@ -16,22 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
+    self.navView.hidden = YES;
+    self.scrollView.frame = CGRectMake(0, 20, ScreenWidth, ScreenHeight-64);
+    self.scrollView.contentSize = CGSizeMake(ScreenWidth, 700);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)userInformManagerBtn:(id)sender {
+    UserInformationViewController *vc = [[UserInformationViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+//    ServeDetailViewController *vc = [[ServeDetailViewController alloc] init];
+//    [self.navigationController pushViewController:vc animated:YES];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

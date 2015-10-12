@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RoundBtn : UIButton
-
+@property(nonatomic,assign)int mark;
 @end

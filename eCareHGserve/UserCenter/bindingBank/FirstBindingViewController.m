@@ -1,23 +1,22 @@
 //
-//  OrderViewController.m
+//  FirstBindingViewController.m
 //  eCareHGserve
 //
-//  Created by tongyuhu on 15/10/10.
+//  Created by tongyuhu on 15/10/12.
 //  Copyright (c) 2015年 SHmoyi. All rights reserved.
 //
 
-#import "OrderViewController.h"
+#import "FirstBindingViewController.h"
 
-@interface OrderViewController ()
+@interface FirstBindingViewController ()
 
 @end
 
-@implementation OrderViewController
+@implementation FirstBindingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

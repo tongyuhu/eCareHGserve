@@ -7,6 +7,9 @@
 //
 
 #import "RoundBtn.h"
+#define BACKPURPLE  1
+#define BACKGRAY  2
+#define borderColor  3
 
 @implementation RoundBtn
 
@@ -14,8 +17,15 @@
     
     [ self.layer setCornerRadius:3.0f];
     [ self.layer setMasksToBounds:YES];
-    self.backgroundColor= [UIColor whiteColor];
-    self.layer.borderColor = [UIColor lightGrayColor].CGColor;
+//    if (self.mark ==BACKPURPLE) {
+//        self.backgroundColor =PURPLE;
+//    }
+//    else if (self.mark ==BACKGRAY)
+//    {
+//        self.backgroundColor =GRAY9;
+//
+//    }
+    
 //    self.layer.borderWidth =0.5;
 
 //    if (self.selected) {

@@ -2,7 +2,7 @@
 //  TaskViewController.m
 //  eCareHGserve
 //
-//  Created by tongyuhu on 15/10/10.
+//  Created by JinYanFeng on 15/10/12.
 //  Copyright (c) 2015年 SHmoyi. All rights reserved.
 //
 
@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

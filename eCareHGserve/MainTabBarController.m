@@ -24,7 +24,7 @@
 - (void)createControllers
 {
     //视图控制器类名
-    NSArray *ctrlArray = @[@"OrderViewController",@"TaskViewController",@"UserCenterViewController"];
+    NSArray *ctrlArray = @[@"NowOrderViewController",@"TaskViewController",@"UserCenterViewController"];
     //标题文字
     NSArray *nameArray = @[@"订单",@"任务",@"个人中心"];
     //图片

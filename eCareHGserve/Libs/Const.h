@@ -31,7 +31,6 @@
 //#define NAVIGATIONCOLOR [UIColor colorWithRed:250.0/255.0 green:0.0/255.0 blue:9.0/255.0 alpha:1.0]
 #define PURPLE [UIColor colorWithRed:141.0/255.0 green:102.0/255.0 blue:216.0/255.0 alpha:1.0]
 #define BACKGROUNDCOLOR [UIColor colorWithRed:235.0/255.0 green:236.0/255.0 blue:240.0/255.0 alpha:1.0]
-#define BLACK [UIColor colorWithRed:51.0/255.0 green:51.0/255.0 blue:51.0/255.0 alpha:1.0]
 #define PLACEHODE [UIColor colorWithRed:199.0/255.0 green:199.0/255.0 blue:205.0/255.0 alpha:1.0]
 
 #define GRAY3 [UIColor colorWithHexString:@"333333"]

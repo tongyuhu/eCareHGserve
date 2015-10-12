@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tabBarController.tabBar.hidden =YES;
     self.automaticallyAdjustsScrollViewInsets =NO;
     self.view.backgroundColor = BACKGROUNDCOLOR;
     self.navView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, 64)];

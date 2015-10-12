@@ -9,9 +9,6 @@
 #ifndef eCareHG_PrefixHeader_pch
 #define eCareHG_PrefixHeader_pch
 
-
-
-
 #pragma mark - Jin Yanfeng 的宏 -
 
 
@@ -34,8 +31,7 @@
 
 //#import "UserCache.h"
 //#import "PassValueDelegate.h"
-//#import "MJRefresh.h"
-//
+#import "MJRefresh.h"
 
 //#import "APIKey.h"
 //#import "UIButton+WebCache.h"

@@ -2,12 +2,12 @@
 //  TaskViewController.h
 //  eCareHGserve
 //
-//  Created by tongyuhu on 15/10/10.
+//  Created by JinYanFeng on 15/10/12.
 //  Copyright (c) 2015年 SHmoyi. All rights reserved.
 //
 
-#import "BaseNavViewController.h"
+#import "NoDataViewController.h"
 
-@interface TaskViewController : BaseNavViewController
+@interface TaskViewController : NoDataViewController
 
 @end

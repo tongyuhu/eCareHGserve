@@ -14,4 +14,8 @@
 @property (nonatomic ,retain)UILabel  *navTitle;
 @property (nonatomic ,retain)UIButton *LeftBtn;
 @property (nonatomic ,retain)UIButton *rightBtn;
+
+@property (nonatomic ,strong)MJRefreshHeaderView *refresh_header;
+@property (nonatomic ,strong)MJRefreshFooterView *refresh_footer;
+@property (nonatomic ,strong)MJRefreshBaseView *refresh_refreshView;
 @end
