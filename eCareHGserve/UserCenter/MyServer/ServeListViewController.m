@@ -1,24 +1,23 @@
 //
-//  ServeDetailViewController.m
+//  ServeListViewController.m
 //  eCareHGserve
 //
-//  Created by JinYanFeng on 15/10/12.
+//  Created by tongyuhu on 15/10/14.
 //  Copyright (c) 2015年 SHmoyi. All rights reserved.
 //
 
-#import "ServeDetailViewController.h"
+#import "ServeListViewController.h"
 
-@interface ServeDetailViewController ()
+@interface ServeListViewController ()
 
 @end
 
-@implementation ServeDetailViewController
+@implementation ServeListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

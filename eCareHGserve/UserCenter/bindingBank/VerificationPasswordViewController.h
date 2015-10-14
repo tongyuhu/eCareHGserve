@@ -1,5 +1,5 @@
 //
-//  BindingBankSuccessViewController.h
+//  VerificationPasswordViewController.h
 //  eCareHGserve
 //
 //  Created by tongyuhu on 15/10/12.
@@ -10,7 +10,9 @@
 
 
 
-@interface BindingBankSuccessViewController : BaseNavViewController
-@property (weak, nonatomic) IBOutlet UILabel *displayStringLabel;
+@interface VerificationPasswordViewController : BaseNavViewController
+@property (weak, nonatomic) IBOutlet UITextField *password;
+
 @property (nonatomic, assign)VerificationType verificationType;
+
 @end

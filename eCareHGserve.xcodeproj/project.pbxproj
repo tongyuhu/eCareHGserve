@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1140DB1BCDE9BB00E25187 /* PointRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1140D91BCDE9BB00E25187 /* PointRecordTableViewCell.m */; };
+		2D1140DC1BCDE9BB00E25187 /* PointRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D1140DA1BCDE9BB00E25187 /* PointRecordTableViewCell.xib */; };
+		2D1140DF1BCDF25700E25187 /* pointsRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1140DE1BCDF25700E25187 /* pointsRecordModel.m */; };
+		2D1140E41BCDFC9B00E25187 /* CreateChatRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1140E21BCDFC9B00E25187 /* CreateChatRoomViewController.m */; };
+		2D1140E51BCDFC9B00E25187 /* CreateChatRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D1140E31BCDFC9B00E25187 /* CreateChatRoomViewController.xib */; };
+		2D1140EA1BCE428600E25187 /* MyServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1140E81BCE428600E25187 /* MyServerViewController.m */; };
+		2D1140EB1BCE428600E25187 /* MyServerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D1140E91BCE428600E25187 /* MyServerViewController.xib */; };
+		2D1140EF1BCE51C000E25187 /* OfferPriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1140ED1BCE51C000E25187 /* OfferPriceViewController.m */; };
+		2D1140F01BCE51C000E25187 /* OfferPriceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D1140EE1BCE51C000E25187 /* OfferPriceViewController.xib */; };
+		2D1140F31BCE5CB500E25187 /* ServeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1140F21BCE5CB500E25187 /* ServeListViewController.m */; };
+		2D1140F71BCE5CDC00E25187 /* ServeListCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1140F51BCE5CDC00E25187 /* ServeListCellTableViewCell.m */; };
+		2D1140F81BCE5CDC00E25187 /* ServeListCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D1140F61BCE5CDC00E25187 /* ServeListCellTableViewCell.xib */; };
+		2D5A0AD11BCC97BF001718C9 /* MobileVerificationBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A0ACF1BCC97BF001718C9 /* MobileVerificationBankViewController.m */; };
+		2D5A0AD21BCC97BF001718C9 /* MobileVerificationBankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A0AD01BCC97BF001718C9 /* MobileVerificationBankViewController.xib */; };
+		2D5A0AD61BCCA70E001718C9 /* VerificationPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A0AD41BCCA70E001718C9 /* VerificationPasswordViewController.m */; };
+		2D5A0AD71BCCA70E001718C9 /* VerificationPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A0AD51BCCA70E001718C9 /* VerificationPasswordViewController.xib */; };
+		2D5A0AE01BCCAABF001718C9 /* ReplacePhoneNumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A0ADE1BCCAABF001718C9 /* ReplacePhoneNumViewController.m */; };
+		2D5A0AE11BCCAABF001718C9 /* ReplacePhoneNumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A0ADF1BCCAABF001718C9 /* ReplacePhoneNumViewController.xib */; };
+		2D5A0AE51BCCAEDF001718C9 /* NewPhoneNumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A0AE31BCCAEDF001718C9 /* NewPhoneNumViewController.m */; };
+		2D5A0AE61BCCAEDF001718C9 /* NewPhoneNumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A0AE41BCCAEDF001718C9 /* NewPhoneNumViewController.xib */; };
+		2D5A0AEB1BCCC9A5001718C9 /* RePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A0AE91BCCC9A5001718C9 /* RePasswordViewController.m */; };
+		2D5A0AEC1BCCC9A5001718C9 /* RePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A0AEA1BCCC9A5001718C9 /* RePasswordViewController.xib */; };
+		2D5A0AF11BCCD1B5001718C9 /* RealNameAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A0AEF1BCCD1B5001718C9 /* RealNameAuthenticationViewController.m */; };
+		2D5A0AF21BCCD1B5001718C9 /* RealNameAuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A0AF01BCCD1B5001718C9 /* RealNameAuthenticationViewController.xib */; };
+		2D5A0AF71BCCED33001718C9 /* CertificateAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A0AF51BCCED33001718C9 /* CertificateAuthenticationViewController.m */; };
+		2D5A0AF81BCCED33001718C9 /* CertificateAuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A0AF61BCCED33001718C9 /* CertificateAuthenticationViewController.xib */; };
+		2D5A0B011BCCF828001718C9 /* UploadCerticateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A0AFF1BCCF828001718C9 /* UploadCerticateViewController.m */; };
+		2D5A0B021BCCF828001718C9 /* UploadCerticateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A0B001BCCF828001718C9 /* UploadCerticateViewController.xib */; };
+		2D5A0B071BCD03E9001718C9 /* MyPointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A0B051BCD03E9001718C9 /* MyPointsViewController.m */; };
+		2D5A0B081BCD03E9001718C9 /* MyPointsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D5A0B061BCD03E9001718C9 /* MyPointsViewController.xib */; };
 		2D9986541BCA6FAF00A7927A /* DetailTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9986481BCA6FAF00A7927A /* DetailTimeViewController.m */; };
 		2D9986551BCA6FAF00A7927A /* FamilyMemberMesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D99864A1BCA6FAF00A7927A /* FamilyMemberMesViewController.m */; };
 		2D9986561BCA6FAF00A7927A /* HomeCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D99864C1BCA6FAF00A7927A /* HomeCareViewController.m */; };
@@ -68,12 +98,12 @@
 		2DD5F15D1BCB4916000E1D66 /* UserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD5F15B1BCB4916000E1D66 /* UserCenterViewController.xib */; };
 		2DD5F1611BCB6DC4000E1D66 /* UserInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5F15F1BCB6DC4000E1D66 /* UserInformationViewController.m */; };
 		2DD5F1621BCB6DC4000E1D66 /* UserInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD5F1601BCB6DC4000E1D66 /* UserInformationViewController.xib */; };
-		2DD5F1661BCB9377000E1D66 /* ServeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5F1641BCB9377000E1D66 /* ServeDetailViewController.m */; };
-		2DD5F1671BCB9377000E1D66 /* ServeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD5F1651BCB9377000E1D66 /* ServeDetailViewController.xib */; };
 		2DD5F16F1BCBC4B4000E1D66 /* FirstBindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5F16D1BCBC4B4000E1D66 /* FirstBindingViewController.m */; };
 		2DD5F1701BCBC4B4000E1D66 /* FirstBindingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD5F16E1BCBC4B4000E1D66 /* FirstBindingViewController.xib */; };
 		2DD5F1741BCBC674000E1D66 /* BindingBankSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5F1721BCBC674000E1D66 /* BindingBankSuccessViewController.m */; };
 		2DD5F1751BCBC674000E1D66 /* BindingBankSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD5F1731BCBC674000E1D66 /* BindingBankSuccessViewController.xib */; };
+		2DD5F1791BCBD207000E1D66 /* ReplaceBindingBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5F1771BCBD207000E1D66 /* ReplaceBindingBankViewController.m */; };
+		2DD5F17A1BCBD207000E1D66 /* ReplaceBindingBankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD5F1781BCBD207000E1D66 /* ReplaceBindingBankViewController.xib */; };
 		861751021BC8D70A00181196 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 861750F81BC8D70A00181196 /* MJRefresh.bundle */; };
 		861751031BC8D70A00181196 /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 861750FB1BC8D70A00181196 /* MJRefreshBaseView.m */; };
 		861751041BC8D70A00181196 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 861750FD1BC8D70A00181196 /* MJRefreshConst.m */; };
@@ -201,6 +231,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D1140D81BCDE9BB00E25187 /* PointRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointRecordTableViewCell.h; sourceTree = "<group>"; };
+		2D1140D91BCDE9BB00E25187 /* PointRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointRecordTableViewCell.m; sourceTree = "<group>"; };
+		2D1140DA1BCDE9BB00E25187 /* PointRecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PointRecordTableViewCell.xib; sourceTree = "<group>"; };
+		2D1140DD1BCDF25700E25187 /* pointsRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointsRecordModel.h; sourceTree = "<group>"; };
+		2D1140DE1BCDF25700E25187 /* pointsRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pointsRecordModel.m; sourceTree = "<group>"; };
+		2D1140E11BCDFC9B00E25187 /* CreateChatRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateChatRoomViewController.h; sourceTree = "<group>"; };
+		2D1140E21BCDFC9B00E25187 /* CreateChatRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateChatRoomViewController.m; sourceTree = "<group>"; };
+		2D1140E31BCDFC9B00E25187 /* CreateChatRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateChatRoomViewController.xib; sourceTree = "<group>"; };
+		2D1140E71BCE428600E25187 /* MyServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyServerViewController.h; sourceTree = "<group>"; };
+		2D1140E81BCE428600E25187 /* MyServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyServerViewController.m; sourceTree = "<group>"; };
+		2D1140E91BCE428600E25187 /* MyServerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyServerViewController.xib; sourceTree = "<group>"; };
+		2D1140EC1BCE51C000E25187 /* OfferPriceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferPriceViewController.h; sourceTree = "<group>"; };
+		2D1140ED1BCE51C000E25187 /* OfferPriceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferPriceViewController.m; sourceTree = "<group>"; };
+		2D1140EE1BCE51C000E25187 /* OfferPriceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferPriceViewController.xib; sourceTree = "<group>"; };
+		2D1140F11BCE5CB500E25187 /* ServeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServeListViewController.h; sourceTree = "<group>"; };
+		2D1140F21BCE5CB500E25187 /* ServeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServeListViewController.m; sourceTree = "<group>"; };
+		2D1140F41BCE5CDB00E25187 /* ServeListCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServeListCellTableViewCell.h; sourceTree = "<group>"; };
+		2D1140F51BCE5CDC00E25187 /* ServeListCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServeListCellTableViewCell.m; sourceTree = "<group>"; };
+		2D1140F61BCE5CDC00E25187 /* ServeListCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServeListCellTableViewCell.xib; sourceTree = "<group>"; };
+		2D5A0ACE1BCC97BF001718C9 /* MobileVerificationBankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileVerificationBankViewController.h; sourceTree = "<group>"; };
+		2D5A0ACF1BCC97BF001718C9 /* MobileVerificationBankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileVerificationBankViewController.m; sourceTree = "<group>"; };
+		2D5A0AD01BCC97BF001718C9 /* MobileVerificationBankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MobileVerificationBankViewController.xib; sourceTree = "<group>"; };
+		2D5A0AD31BCCA70E001718C9 /* VerificationPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationPasswordViewController.h; sourceTree = "<group>"; };
+		2D5A0AD41BCCA70E001718C9 /* VerificationPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationPasswordViewController.m; sourceTree = "<group>"; };
+		2D5A0AD51BCCA70E001718C9 /* VerificationPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationPasswordViewController.xib; sourceTree = "<group>"; };
+		2D5A0ADD1BCCAABF001718C9 /* ReplacePhoneNumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplacePhoneNumViewController.h; sourceTree = "<group>"; };
+		2D5A0ADE1BCCAABF001718C9 /* ReplacePhoneNumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplacePhoneNumViewController.m; sourceTree = "<group>"; };
+		2D5A0ADF1BCCAABF001718C9 /* ReplacePhoneNumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplacePhoneNumViewController.xib; sourceTree = "<group>"; };
+		2D5A0AE21BCCAEDF001718C9 /* NewPhoneNumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPhoneNumViewController.h; sourceTree = "<group>"; };
+		2D5A0AE31BCCAEDF001718C9 /* NewPhoneNumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPhoneNumViewController.m; sourceTree = "<group>"; };
+		2D5A0AE41BCCAEDF001718C9 /* NewPhoneNumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewPhoneNumViewController.xib; sourceTree = "<group>"; };
+		2D5A0AE81BCCC9A5001718C9 /* RePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RePasswordViewController.h; sourceTree = "<group>"; };
+		2D5A0AE91BCCC9A5001718C9 /* RePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RePasswordViewController.m; sourceTree = "<group>"; };
+		2D5A0AEA1BCCC9A5001718C9 /* RePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RePasswordViewController.xib; sourceTree = "<group>"; };
+		2D5A0AEE1BCCD1B5001718C9 /* RealNameAuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealNameAuthenticationViewController.h; sourceTree = "<group>"; };
+		2D5A0AEF1BCCD1B5001718C9 /* RealNameAuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealNameAuthenticationViewController.m; sourceTree = "<group>"; };
+		2D5A0AF01BCCD1B5001718C9 /* RealNameAuthenticationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealNameAuthenticationViewController.xib; sourceTree = "<group>"; };
+		2D5A0AF41BCCED33001718C9 /* CertificateAuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateAuthenticationViewController.h; sourceTree = "<group>"; };
+		2D5A0AF51BCCED33001718C9 /* CertificateAuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateAuthenticationViewController.m; sourceTree = "<group>"; };
+		2D5A0AF61BCCED33001718C9 /* CertificateAuthenticationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CertificateAuthenticationViewController.xib; sourceTree = "<group>"; };
+		2D5A0AFE1BCCF828001718C9 /* UploadCerticateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadCerticateViewController.h; sourceTree = "<group>"; };
+		2D5A0AFF1BCCF828001718C9 /* UploadCerticateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadCerticateViewController.m; sourceTree = "<group>"; };
+		2D5A0B001BCCF828001718C9 /* UploadCerticateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadCerticateViewController.xib; sourceTree = "<group>"; };
+		2D5A0B041BCD03E9001718C9 /* MyPointsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPointsViewController.h; sourceTree = "<group>"; };
+		2D5A0B051BCD03E9001718C9 /* MyPointsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPointsViewController.m; sourceTree = "<group>"; };
+		2D5A0B061BCD03E9001718C9 /* MyPointsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPointsViewController.xib; sourceTree = "<group>"; };
 		2D9986471BCA6FAF00A7927A /* DetailTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailTimeViewController.h; path = eCareHGserve/Order/Order/DetailTimeViewController.h; sourceTree = SOURCE_ROOT; };
 		2D9986481BCA6FAF00A7927A /* DetailTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailTimeViewController.m; path = eCareHGserve/Order/Order/DetailTimeViewController.m; sourceTree = SOURCE_ROOT; };
 		2D9986491BCA6FAF00A7927A /* FamilyMemberMesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FamilyMemberMesViewController.h; path = eCareHGserve/Order/Order/FamilyMemberMesViewController.h; sourceTree = SOURCE_ROOT; };
@@ -326,15 +402,15 @@
 		2DD5F15E1BCB6DC4000E1D66 /* UserInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInformationViewController.h; sourceTree = "<group>"; };
 		2DD5F15F1BCB6DC4000E1D66 /* UserInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInformationViewController.m; sourceTree = "<group>"; };
 		2DD5F1601BCB6DC4000E1D66 /* UserInformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInformationViewController.xib; sourceTree = "<group>"; };
-		2DD5F1631BCB9377000E1D66 /* ServeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServeDetailViewController.h; sourceTree = "<group>"; };
-		2DD5F1641BCB9377000E1D66 /* ServeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServeDetailViewController.m; sourceTree = "<group>"; };
-		2DD5F1651BCB9377000E1D66 /* ServeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServeDetailViewController.xib; sourceTree = "<group>"; };
 		2DD5F16C1BCBC4B4000E1D66 /* FirstBindingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstBindingViewController.h; sourceTree = "<group>"; };
 		2DD5F16D1BCBC4B4000E1D66 /* FirstBindingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstBindingViewController.m; sourceTree = "<group>"; };
 		2DD5F16E1BCBC4B4000E1D66 /* FirstBindingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstBindingViewController.xib; sourceTree = "<group>"; };
 		2DD5F1711BCBC674000E1D66 /* BindingBankSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindingBankSuccessViewController.h; sourceTree = "<group>"; };
 		2DD5F1721BCBC674000E1D66 /* BindingBankSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindingBankSuccessViewController.m; sourceTree = "<group>"; };
 		2DD5F1731BCBC674000E1D66 /* BindingBankSuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BindingBankSuccessViewController.xib; sourceTree = "<group>"; };
+		2DD5F1761BCBD207000E1D66 /* ReplaceBindingBankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceBindingBankViewController.h; sourceTree = "<group>"; };
+		2DD5F1771BCBD207000E1D66 /* ReplaceBindingBankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceBindingBankViewController.m; sourceTree = "<group>"; };
+		2DD5F1781BCBD207000E1D66 /* ReplaceBindingBankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplaceBindingBankViewController.xib; sourceTree = "<group>"; };
 		861750F81BC8D70A00181196 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
 		861750F91BC8D70A00181196 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
 		861750FA1BC8D70A00181196 /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBaseView.h; sourceTree = "<group>"; };
@@ -488,6 +564,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D1140E01BCDFC6300E25187 /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				2D1140E11BCDFC9B00E25187 /* CreateChatRoomViewController.h */,
+				2D1140E21BCDFC9B00E25187 /* CreateChatRoomViewController.m */,
+				2D1140E31BCDFC9B00E25187 /* CreateChatRoomViewController.xib */,
+			);
+			path = ChatRoom;
+			sourceTree = "<group>";
+		};
+		2D1140E61BCE420600E25187 /* MyServer */ = {
+			isa = PBXGroup;
+			children = (
+				2D1140E71BCE428600E25187 /* MyServerViewController.h */,
+				2D1140E81BCE428600E25187 /* MyServerViewController.m */,
+				2D1140E91BCE428600E25187 /* MyServerViewController.xib */,
+				2D1140EC1BCE51C000E25187 /* OfferPriceViewController.h */,
+				2D1140ED1BCE51C000E25187 /* OfferPriceViewController.m */,
+				2D1140EE1BCE51C000E25187 /* OfferPriceViewController.xib */,
+				2D1140F11BCE5CB500E25187 /* ServeListViewController.h */,
+				2D1140F21BCE5CB500E25187 /* ServeListViewController.m */,
+				2D1140F41BCE5CDB00E25187 /* ServeListCellTableViewCell.h */,
+				2D1140F51BCE5CDC00E25187 /* ServeListCellTableViewCell.m */,
+				2D1140F61BCE5CDC00E25187 /* ServeListCellTableViewCell.xib */,
+			);
+			path = MyServer;
+			sourceTree = "<group>";
+		};
+		2D5A0ADC1BCCAAA8001718C9 /* ReplacePhonne */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A0ADD1BCCAABF001718C9 /* ReplacePhoneNumViewController.h */,
+				2D5A0ADE1BCCAABF001718C9 /* ReplacePhoneNumViewController.m */,
+				2D5A0ADF1BCCAABF001718C9 /* ReplacePhoneNumViewController.xib */,
+				2D5A0AE21BCCAEDF001718C9 /* NewPhoneNumViewController.h */,
+				2D5A0AE31BCCAEDF001718C9 /* NewPhoneNumViewController.m */,
+				2D5A0AE41BCCAEDF001718C9 /* NewPhoneNumViewController.xib */,
+			);
+			path = ReplacePhonne;
+			sourceTree = "<group>";
+		};
+		2D5A0AE71BCCC972001718C9 /* RePassword */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A0AE81BCCC9A5001718C9 /* RePasswordViewController.h */,
+				2D5A0AE91BCCC9A5001718C9 /* RePasswordViewController.m */,
+				2D5A0AEA1BCCC9A5001718C9 /* RePasswordViewController.xib */,
+			);
+			path = RePassword;
+			sourceTree = "<group>";
+		};
+		2D5A0AED1BCCD195001718C9 /* RealNameAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A0AEE1BCCD1B5001718C9 /* RealNameAuthenticationViewController.h */,
+				2D5A0AEF1BCCD1B5001718C9 /* RealNameAuthenticationViewController.m */,
+				2D5A0AF01BCCD1B5001718C9 /* RealNameAuthenticationViewController.xib */,
+			);
+			path = RealNameAuthentication;
+			sourceTree = "<group>";
+		};
+		2D5A0AF31BCCEBB1001718C9 /* CertificateAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A0AF41BCCED33001718C9 /* CertificateAuthenticationViewController.h */,
+				2D5A0AF51BCCED33001718C9 /* CertificateAuthenticationViewController.m */,
+				2D5A0AF61BCCED33001718C9 /* CertificateAuthenticationViewController.xib */,
+				2D5A0AFE1BCCF828001718C9 /* UploadCerticateViewController.h */,
+				2D5A0AFF1BCCF828001718C9 /* UploadCerticateViewController.m */,
+				2D5A0B001BCCF828001718C9 /* UploadCerticateViewController.xib */,
+			);
+			path = CertificateAuthentication;
+			sourceTree = "<group>";
+		};
+		2D5A0B031BCD02FE001718C9 /* myPoints */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A0B041BCD03E9001718C9 /* MyPointsViewController.h */,
+				2D5A0B051BCD03E9001718C9 /* MyPointsViewController.m */,
+				2D5A0B061BCD03E9001718C9 /* MyPointsViewController.xib */,
+				2D1140D81BCDE9BB00E25187 /* PointRecordTableViewCell.h */,
+				2D1140D91BCDE9BB00E25187 /* PointRecordTableViewCell.m */,
+				2D1140DA1BCDE9BB00E25187 /* PointRecordTableViewCell.xib */,
+				2D1140DD1BCDF25700E25187 /* pointsRecordModel.h */,
+				2D1140DE1BCDF25700E25187 /* pointsRecordModel.m */,
+			);
+			path = myPoints;
+			sourceTree = "<group>";
+		};
 		2DCC69AD1BC8AA3100232810 = {
 			isa = PBXGroup;
 			children = (
@@ -725,16 +890,20 @@
 		2DD5F1581BCB48F9000E1D66 /* UserCenter */ = {
 			isa = PBXGroup;
 			children = (
-				2DD5F1631BCB9377000E1D66 /* ServeDetailViewController.h */,
-				2DD5F1641BCB9377000E1D66 /* ServeDetailViewController.m */,
-				2DD5F1651BCB9377000E1D66 /* ServeDetailViewController.xib */,
+				2D1140E61BCE420600E25187 /* MyServer */,
+				2D1140E01BCDFC6300E25187 /* ChatRoom */,
+				2D5A0B031BCD02FE001718C9 /* myPoints */,
+				2D5A0AF31BCCEBB1001718C9 /* CertificateAuthentication */,
+				2D5A0AED1BCCD195001718C9 /* RealNameAuthentication */,
+				2D5A0AE71BCCC972001718C9 /* RePassword */,
+				2D5A0ADC1BCCAAA8001718C9 /* ReplacePhonne */,
+				2DD5F16B1BCBC45F000E1D66 /* bindingBank */,
 				2DD5F1591BCB4916000E1D66 /* UserCenterViewController.h */,
 				2DD5F15A1BCB4916000E1D66 /* UserCenterViewController.m */,
 				2DD5F15B1BCB4916000E1D66 /* UserCenterViewController.xib */,
 				2DD5F15E1BCB6DC4000E1D66 /* UserInformationViewController.h */,
 				2DD5F15F1BCB6DC4000E1D66 /* UserInformationViewController.m */,
 				2DD5F1601BCB6DC4000E1D66 /* UserInformationViewController.xib */,
-				2DD5F16B1BCBC45F000E1D66 /* bindingBank */,
 			);
 			path = UserCenter;
 			sourceTree = "<group>";
@@ -742,12 +911,21 @@
 		2DD5F16B1BCBC45F000E1D66 /* bindingBank */ = {
 			isa = PBXGroup;
 			children = (
+				2D5A0AD31BCCA70E001718C9 /* VerificationPasswordViewController.h */,
+				2D5A0AD41BCCA70E001718C9 /* VerificationPasswordViewController.m */,
+				2D5A0AD51BCCA70E001718C9 /* VerificationPasswordViewController.xib */,
 				2DD5F16C1BCBC4B4000E1D66 /* FirstBindingViewController.h */,
 				2DD5F16D1BCBC4B4000E1D66 /* FirstBindingViewController.m */,
 				2DD5F16E1BCBC4B4000E1D66 /* FirstBindingViewController.xib */,
 				2DD5F1711BCBC674000E1D66 /* BindingBankSuccessViewController.h */,
 				2DD5F1721BCBC674000E1D66 /* BindingBankSuccessViewController.m */,
 				2DD5F1731BCBC674000E1D66 /* BindingBankSuccessViewController.xib */,
+				2DD5F1761BCBD207000E1D66 /* ReplaceBindingBankViewController.h */,
+				2DD5F1771BCBD207000E1D66 /* ReplaceBindingBankViewController.m */,
+				2DD5F1781BCBD207000E1D66 /* ReplaceBindingBankViewController.xib */,
+				2D5A0ACE1BCC97BF001718C9 /* MobileVerificationBankViewController.h */,
+				2D5A0ACF1BCC97BF001718C9 /* MobileVerificationBankViewController.m */,
+				2D5A0AD01BCC97BF001718C9 /* MobileVerificationBankViewController.xib */,
 			);
 			path = bindingBank;
 			sourceTree = "<group>";
@@ -1059,11 +1237,14 @@
 				8673548A1BCA530D008EA0B7 /* phone@2x.png in Resources */,
 				867354901BCA530D008EA0B7 /* sexRound@2x.png in Resources */,
 				8673548E1BCA530D008EA0B7 /* rili-huidi@2x.png in Resources */,
+				2D1140EB1BCE428600E25187 /* MyServerViewController.xib in Resources */,
+				2D5A0AEC1BCCC9A5001718C9 /* RePasswordViewController.xib in Resources */,
 				867354711BCA530D008EA0B7 /* bg11@2x.png in Resources */,
 				8673540F1BCA52DD008EA0B7 /* RegisterViewController2.xib in Resources */,
 				867354BA1BCA530D008EA0B7 /* symbol@3x..png in Resources */,
 				867354111BCA52DD008EA0B7 /* ResetPasswordViewController.xib in Resources */,
 				8673549D1BCA530D008EA0B7 /* biaotijiantou@3x.png in Resources */,
+				2D5A0AF81BCCED33001718C9 /* CertificateAuthenticationViewController.xib in Resources */,
 				865873C61BCA45DB00D1976A /* RHomeCareViewController.xib in Resources */,
 				86588A351BC908170043E316 /* DetailTimeCell.xib in Resources */,
 				867354A61BCA530D008EA0B7 /* goin@3x.png in Resources */,
@@ -1071,8 +1252,11 @@
 				8673540B1BCA52DD008EA0B7 /* GetBackPasswordViewController.xib in Resources */,
 				867354A01BCA530D008EA0B7 /* ee@3x.png in Resources */,
 				2DCC69C51BC8AA3100232810 /* Main.storyboard in Resources */,
+				2D5A0B021BCCF828001718C9 /* UploadCerticateViewController.xib in Resources */,
 				867354B41BCA530D008EA0B7 /* rili-huidi@3x.png in Resources */,
 				8673548D1BCA530D008EA0B7 /* right@2x.png in Resources */,
+				2D5A0AE61BCCAEDF001718C9 /* NewPhoneNumViewController.xib in Resources */,
+				2D1140E51BCDFC9B00E25187 /* CreateChatRoomViewController.xib in Resources */,
 				867354771BCA530D008EA0B7 /* d@2x.png in Resources */,
 				8673547E1BCA530D008EA0B7 /* gift@2x.png in Resources */,
 				8673546C1BCA530D008EA0B7 /* a@2x.png in Resources */,
@@ -1088,6 +1272,8 @@
 				867354A11BCA530D008EA0B7 /* ff1@3x.png in Resources */,
 				867354991BCA530D008EA0B7 /* user@2x.png in Resources */,
 				867354751BCA530D008EA0B7 /* camera@2x.png in Resources */,
+				2D5A0AE11BCCAABF001718C9 /* ReplacePhoneNumViewController.xib in Resources */,
+				2D1140F81BCE5CDC00E25187 /* ServeListCellTableViewCell.xib in Resources */,
 				867354A41BCA530D008EA0B7 /* gg@3x.png in Resources */,
 				867354BE1BCA530D008EA0B7 /* 未标题-92.png in Resources */,
 				8673548C1BCA530D008EA0B7 /* purpleround@2x.png in Resources */,
@@ -1125,10 +1311,11 @@
 				8673547C1BCA530D008EA0B7 /* gg1@2x.png in Resources */,
 				8673546F1BCA530D008EA0B7 /* back@2x.png in Resources */,
 				867354B11BCA530D008EA0B7 /* purplerect@3x.png in Resources */,
+				2D5A0AF21BCCD1B5001718C9 /* RealNameAuthenticationViewController.xib in Resources */,
 				867354A81BCA530D008EA0B7 /* hh@3x.png in Resources */,
 				8673540D1BCA52DD008EA0B7 /* RegisterViewController.xib in Resources */,
 				867354BD1BCA530D008EA0B7 /* 未标题-15.png in Resources */,
-				2DD5F1671BCB9377000E1D66 /* ServeDetailViewController.xib in Resources */,
+				2D5A0AD71BCCA70E001718C9 /* VerificationPasswordViewController.xib in Resources */,
 				2D99865B1BCA6FB000A7927A /* NowOrderViewController.xib in Resources */,
 				867354A51BCA530D008EA0B7 /* gift@3x.png in Resources */,
 				865873B01BC9F51600D1976A /* ReservOrderCell.xib in Resources */,
@@ -1142,15 +1329,20 @@
 				2D9986571BCA6FAF00A7927A /* HomeCareViewController.xib in Resources */,
 				867354811BCA530D008EA0B7 /* hh@2x.png in Resources */,
 				867354701BCA530D008EA0B7 /* beijing@2x.png in Resources */,
+				2D1140F01BCE51C000E25187 /* OfferPriceViewController.xib in Resources */,
 				867354801BCA530D008EA0B7 /* head@2x.png in Resources */,
 				867354931BCA530D008EA0B7 /* star2@2x.png in Resources */,
 				865873B51BC9FBE900D1976A /* RHomeNurseViewController.xib in Resources */,
+				2D5A0AD21BCC97BF001718C9 /* MobileVerificationBankViewController.xib in Resources */,
 				867354741BCA530D008EA0B7 /* c@2x.png in Resources */,
 				867354841BCA530D008EA0B7 /* jilu@2x.png in Resources */,
 				867354151BCA52DD008EA0B7 /* SuccessResetedPasswordViewController.xib in Resources */,
+				2DD5F17A1BCBD207000E1D66 /* ReplaceBindingBankViewController.xib in Resources */,
 				867354891BCA530D008EA0B7 /* list@2x.png in Resources */,
 				867354BB1BCA530D008EA0B7 /* user1@3x.png in Resources */,
+				2D5A0B081BCD03E9001718C9 /* MyPointsViewController.xib in Resources */,
 				8673548B1BCA530D008EA0B7 /* purplerect@2x.png in Resources */,
+				2D1140DC1BCDE9BB00E25187 /* PointRecordTableViewCell.xib in Resources */,
 				867354831BCA530D008EA0B7 /* jiantou@2x.png in Resources */,
 				8673549A1BCA530D008EA0B7 /* xiaojiantou@2x.png in Resources */,
 				867354A71BCA530D008EA0B7 /* head@3x.png in Resources */,
@@ -1178,16 +1370,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				865873C51BCA45DB00D1976A /* RHomeCareViewController.m in Sources */,
+				2D1140EF1BCE51C000E25187 /* OfferPriceViewController.m in Sources */,
 				2D9986581BCA6FAF00A7927A /* HomeNurseViewController.m in Sources */,
 				867354101BCA52DD008EA0B7 /* ResetPasswordViewController.m in Sources */,
 				861751051BC8D70A00181196 /* MJRefreshFooterView.m in Sources */,
+				2D5A0AF11BCCD1B5001718C9 /* RealNameAuthenticationViewController.m in Sources */,
 				2DCC6A5E1BC8AF2900232810 /* NSArray+Sort.m in Sources */,
 				867354121BCA52DD008EA0B7 /* SignInViewController.m in Sources */,
 				2DCC6A491BC8AF2900232810 /* AFURLSessionManager.m in Sources */,
 				8673540C1BCA52DD008EA0B7 /* RegisterViewController.m in Sources */,
 				2DCC6A541BC8AF2900232810 /* KalViewController.m in Sources */,
+				2D5A0AE51BCCAEDF001718C9 /* NewPhoneNumViewController.m in Sources */,
+				2D5A0AE01BCCAABF001718C9 /* ReplacePhoneNumViewController.m in Sources */,
 				2DD5F16F1BCBC4B4000E1D66 /* FirstBindingViewController.m in Sources */,
-				2DD5F1661BCB9377000E1D66 /* ServeDetailViewController.m in Sources */,
+				2D1140F71BCE5CDC00E25187 /* ServeListCellTableViewCell.m in Sources */,
 				865873B41BC9FBE900D1976A /* RHomeNurseViewController.m in Sources */,
 				2DCC6A461BC8AF2900232810 /* AFURLConnectionOperation.m in Sources */,
 				2DD5F15C1BCB4916000E1D66 /* UserCenterViewController.m in Sources */,
@@ -1195,25 +1391,33 @@
 				2DCC6A601BC8AF2900232810 /* UIView+IQKeyboardToolbar.m in Sources */,
 				2DCC6A411BC8AF2900232810 /* AFHTTPRequestOperation.m in Sources */,
 				861751041BC8D70A00181196 /* MJRefreshConst.m in Sources */,
+				2D1140DB1BCDE9BB00E25187 /* PointRecordTableViewCell.m in Sources */,
 				2DD5F1741BCBC674000E1D66 /* BindingBankSuccessViewController.m in Sources */,
 				2DCC6A521BC8AF2900232810 /* KalTileView.m in Sources */,
 				2DCC6A691BC8B33000232810 /* MainTabBarController.m in Sources */,
 				2DCC6A611BC8AF2900232810 /* UIWindow+Hierarchy.m in Sources */,
+				2D1140DF1BCDF25700E25187 /* pointsRecordModel.m in Sources */,
 				2DCC6A5A1BC8AF2900232810 /* IQSegmentedNextPrevious.m in Sources */,
 				2DCC6A561BC8AF2900232810 /* NSDateAdditions.m in Sources */,
 				86588A271BC903B80043E316 /* FamilyMemberMesCell.m in Sources */,
+				2D5A0AD61BCCA70E001718C9 /* VerificationPasswordViewController.m in Sources */,
 				2DD5F1611BCB6DC4000E1D66 /* UserInformationViewController.m in Sources */,
 				2DCC6A551BC8AF2900232810 /* NSDate+Convenience.m in Sources */,
+				2DD5F1791BCBD207000E1D66 /* ReplaceBindingBankViewController.m in Sources */,
 				2D99865A1BCA6FB000A7927A /* NowOrderViewController.m in Sources */,
+				2D5A0AF71BCCED33001718C9 /* CertificateAuthenticationViewController.m in Sources */,
 				2DCC6A591BC8AF2900232810 /* IQKeyboardManager.m in Sources */,
 				2D9986561BCA6FAF00A7927A /* HomeCareViewController.m in Sources */,
 				861751061BC8D70A00181196 /* MJRefreshHeaderView.m in Sources */,
 				8673540A1BCA52DD008EA0B7 /* GetBackPasswordViewController.m in Sources */,
+				2D1140F31BCE5CB500E25187 /* ServeListViewController.m in Sources */,
+				2D5A0B071BCD03E9001718C9 /* MyPointsViewController.m in Sources */,
 				2D9986551BCA6FAF00A7927A /* FamilyMemberMesViewController.m in Sources */,
 				869649691BC8E4350056EEEF /* NowOrderCell.m in Sources */,
 				2DCC6A531BC8AF2900232810 /* KalView.m in Sources */,
 				2DCC6A5C1BC8AF2900232810 /* IQTitleBarButtonItem.m in Sources */,
 				2DCC6A4A1BC8AF2900232810 /* CHCarInfo.m in Sources */,
+				2D1140E41BCDFC9B00E25187 /* CreateChatRoomViewController.m in Sources */,
 				86588A341BC908170043E316 /* DetailTimeCell.m in Sources */,
 				2DCC69C21BC8AA3100232810 /* ViewController.m in Sources */,
 				2DCC6A621BC8AF2900232810 /* UIColorAdditions.m in Sources */,
@@ -1236,11 +1440,15 @@
 				2DCC6A3D1BC8AF2900232810 /* DBNAlertView.m in Sources */,
 				861751091BC8D7AA00181196 /* NoDataViewController.m in Sources */,
 				2DCC6A731BC8B6BE00232810 /* TaskViewController.m in Sources */,
+				2D5A0AEB1BCCC9A5001718C9 /* RePasswordViewController.m in Sources */,
 				2DCC6A451BC8AF2900232810 /* AFSecurityPolicy.m in Sources */,
 				865873AB1BC9F47A00D1976A /* ReservOrderViewController.m in Sources */,
+				2D1140EA1BCE428600E25187 /* MyServerViewController.m in Sources */,
+				2D5A0AD11BCC97BF001718C9 /* MobileVerificationBankViewController.m in Sources */,
 				2DCC69BF1BC8AA3100232810 /* AppDelegate.m in Sources */,
 				865873AF1BC9F51600D1976A /* ReservOrderCell.m in Sources */,
 				2DCC6A5F1BC8AF2900232810 /* UIView+Hierarchy.m in Sources */,
+				2D5A0B011BCCF828001718C9 /* UploadCerticateViewController.m in Sources */,
 				2DCC6A471BC8AF2900232810 /* AFURLRequestSerialization.m in Sources */,
 				2DCC6A571BC8AF2900232810 /* UIViewAdditions.m in Sources */,
 				2DCC6A5D1BC8AF2900232810 /* IQToolbar.m in Sources */,

@@ -7,6 +7,11 @@
 //
 
 #import "UserInformationViewController.h"
+#import "FirstBindingViewController.h"
+#import "ReplaceBindingBankViewController.h"
+#import "ReplacePhoneNumViewController.h"
+#import "RePasswordViewController.h"
+#import "RealNameAuthenticationViewController.h"
 @interface UserInformationViewController ()<UIActionSheetDelegate,UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIPickerViewDataSource, UIPickerViewDelegate>
 {
     NSArray *_pickArray;
@@ -19,6 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.scrollView.frame = CGRectMake(0, 64, ScreenWidth, ScreenHeight-64);
     self.scrollView.contentSize = CGSizeMake(ScreenWidth, 600);
     [self initNav];
     
@@ -37,7 +43,7 @@
 {
     
 }
-
+#pragma mark - action
 - (IBAction)photoEditingBtn:(id)sender {
     UIActionSheet *sheet;
     
@@ -75,7 +81,7 @@
     [self initPick];
     
     CGRect frame = self.bottomView.frame;
-    self.backgroundView.frame = CGRectMake(0, 64, ScreenWidth, ScreenHeight);
+    self.backgroundView.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
     
     [UIView animateWithDuration:0.2 animations:^{
         self.backgroundView.hidden = NO;
@@ -85,6 +91,8 @@
     
 }
 
+
+// 让backgroundview退出界面
 - (IBAction)confirmBtn:(id)sender {
     self.workAge.text = _pickSelectedTest;
     CGRect frame = self.bottomView.frame;
@@ -94,7 +102,7 @@
     }];
 }
 
-
+// 让backgroundview退出界面
 - (IBAction)cancelBtn:(id)sender {
     CGRect frame = self.bottomView.frame;
     [UIView animateWithDuration:0.2 animations:^{
@@ -103,7 +111,33 @@
     }];
 }
 
+- (IBAction)bankCardBtn:(id)sender {
+    if ([self.bankNum.text isEqualToString:@"未绑定"]) {
+        FirstBindingViewController *vc = [[FirstBindingViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else
+    {
+        ReplaceBindingBankViewController *vc = [[ReplaceBindingBankViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    
+}
+- (IBAction)phoneNumBtn:(id)sender {
+    ReplacePhoneNumViewController *vc = [[ReplacePhoneNumViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
+- (IBAction)rePasswordBtn:(id)sender {
+    RePasswordViewController *vc = [[RePasswordViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)readNameAuthenBtn:(id)sender {
+    RealNameAuthenticationViewController *vc = [[RealNameAuthenticationViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
 
 #pragma mark - action sheet delegte
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex

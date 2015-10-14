@@ -8,7 +8,10 @@
 
 #import "UserCenterViewController.h"
 #import "UserInformationViewController.h"
-#import "ServeDetailViewController.h"
+#import "CertificateAuthenticationViewController.h"
+#import "MyPointsViewController.h"
+#import "CreateChatRoomViewController.h"
+#import "MyServerViewController.h"
 @interface UserCenterViewController ()
 
 @end
@@ -26,8 +29,23 @@
 - (IBAction)userInformManagerBtn:(id)sender {
     UserInformationViewController *vc = [[UserInformationViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
-//    ServeDetailViewController *vc = [[ServeDetailViewController alloc] init];
-//    [self.navigationController pushViewController:vc animated:YES];
+
+}
+- (IBAction)authenticationBtn:(id)sender {
+    CertificateAuthenticationViewController *vc = [[CertificateAuthenticationViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)myPointBtn:(id)sender {
+    MyPointsViewController *vc = [[MyPointsViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)createChatRoomBtn:(id)sender {
+    CreateChatRoomViewController *vc = [[CreateChatRoomViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)mySeverBtn:(id)sender {
+    MyServerViewController *vc = [[MyServerViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

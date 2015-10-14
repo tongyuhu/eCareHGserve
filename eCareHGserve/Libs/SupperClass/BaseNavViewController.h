@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, VerificationType) {
+    VerificationTypeForBank,
+    VerificationTypeForPhone,
+    VerificationTypeForPassword,
+    VerificationTypeForRealNameAuthentication,
+    VerificationTypeForNorseCertication,
+    VerificationTypeForHealthCertication,
+    VerificationTypeForRankCertication
+};
+
 @interface BaseNavViewController : UIViewController
 
 @property (nonatomic ,retain)UIView   *navView;

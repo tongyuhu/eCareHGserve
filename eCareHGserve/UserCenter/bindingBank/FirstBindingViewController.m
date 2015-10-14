@@ -7,6 +7,8 @@
 //
 
 #import "FirstBindingViewController.h"
+#import "BindingBankSuccessViewController.h"
+#import "MobileVerificationBankViewController.h"
 
 @interface FirstBindingViewController ()
 
@@ -19,19 +21,16 @@
     // Do any additional setup after loading the view from its nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)nestStepBtn:(id)sender {
+    if (self.isReBinding) {
+        MobileVerificationBankViewController *vc =[[MobileVerificationBankViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else
+    {
+        BindingBankSuccessViewController *vc = [[BindingBankSuccessViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -9,5 +9,8 @@
 #import "BaseNavViewController.h"
 
 @interface FirstBindingViewController : BaseNavViewController
+@property (weak, nonatomic) IBOutlet UITextField *bankUserName;
+@property (weak, nonatomic) IBOutlet UITextField *bankNum;
+@property (nonatomic, assign)BOOL isReBinding;
 
 @end
